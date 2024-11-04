@@ -1,9 +1,13 @@
+criaCartao(
+    'Matemática',
+    'Qual é a fórmula da área de um triângulo?',
+    'A área de um triângulo é dada por A = b × h / 2, onde b é a base e h é a altura')
+
+
+
 const perguntasRespostas = {
     "Matemática": [
-        {
-            "pergunta": "Qual é a fórmula da área de um triângulo?",
-            "resposta": "A área de um triângulo é dada por A = b × h / 2, onde b é a base e h é a altura."
-        },
+       
         {
             "pergunta": "Resolva a equação 2x + 3 = 11.",
             "resposta": "2x = 11 - 3 ⇒ 2x = 8 ⇒ x = 4."
@@ -95,4 +99,4 @@ const perguntasRespostas = {
     ]
 };
 
-console.log(perguntasRespostas);
+

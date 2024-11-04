@@ -12,18 +12,18 @@ function criaCartao(categoria, pergunta, resposta) {
             <p>${resposta}</p>
         </div>
     </div>
-    `;
+    `
 
     container.appendChild(cartao);
-
+}
     function mostraResposta(card) {
         const resposta = card.qurySelector('.resposta-cartao')
 
-        if (resposta.styles.display === 'none')
-             { resposta.styles.display = 'block' }
-    }
-    else{
-        resposta.styles.display = 'none'
+        if (resposta.styles.display === 'none') {
+            resposta.styles.display = 'block';
+        }
+    else {
+        resposta.styles.display = 'none';
     }
 
 }
